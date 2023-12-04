@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoTect Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #d1f3e2;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4caf50;
+            padding: 1em;
+            color: white;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        nav {
+            background-color: #4caf50;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #4caf50;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .campaigns,
+        .events {
+            margin-top: 20px;
+        }
+
+        .campaign,
+        .event {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #f7f7f7;
+        }
+
+        .progress-container {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        progress {
+            width: 80%;
+            height: 20px;
+        }
+
+        footer {
+            background-color: #4caf50;
+            padding: 1em;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        EcoTect Dashboard
+    </header>
+
+    <nav>
+        <a href="news.html">News</a>
+        <a href="community.html">Community</a>
+        <a href="donate.html">Donate</a>
+    </nav>
+
+    <div class="container">
+        <h2>Welcome to EcoTect</h2>
+        <p>Thank you for being a part of our eco-friendly community. Explore the dashboard to stay updated on our initiatives!</p>
+
+        <div class="progress-container">
+            <h2>Environmental Impact</h2>
+            <p>Track our collective progress in making a positive impact on the environment:</p>
+            <progress value="50" max="100"></progress>
+            <p>50% of our goal achieved</p>
+        </div>
+
+        <div class="campaigns">
+            <h2>Ongoing Campaigns</h2>
+
+            <div class="campaign">
+                <h3>Plant a Tree Campaign</h3>
+                <p>Join us in our mission to plant trees and combat deforestation. Every tree makes a positive impact on the environment.</p>
+            </div>
+
+            <div class="campaign">
+                <h3>Renewable Energy Advocacy</h3>
+                <p>Support our efforts to promote and implement renewable energy solutions. Let's work towards a cleaner and greener future.</p>
+            </div>
+        </div>
+
+        <div class="events">
+            <h2>Upcoming Events</h2>
+
+            <div class="event">
+                <h3>Green Symposium</h3>
+                <p>Attend our Green Symposium where experts will discuss sustainable practices, environmental conservation, and more.</p>
+                <p>Date: April 15, 2023</p>
+            </div>
+
+            <div class="event">
+                <h3>Eco-friendly Workshop</h3>
+                <p>Participate in our hands-on workshop to learn about eco-friendly lifestyle choices and sustainable living.</p>
+                <p>Date: May 5, 2023</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2023 EcoTect | Contact us at info@ecotect.org
+    </footer>
+</body>
+
+</html>

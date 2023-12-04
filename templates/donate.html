@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoTect - Donate</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html">EcoTect Dashboard</a>
+    </header>
+
+    <div class="container">
+        <h2>Donate to EcoTect</h2>
+        <p>Your contribution makes a significant impact on our environmental initiatives. Thank you for your support!</p>
+
+        <form id="donateForm">
+            <label for="amount">Enter donation amount:</label>
+            <input type="number" id="amount" placeholder="Enter amount" required>
+
+            <button type="button" onclick="processDonation()">Donate Now</button>
+        </form>
+
+        <div id="donationResult"></div>
+    </div>
+
+    <footer>
+        &copy; 2023 EcoTect | Contact us at info@ecotect.org
+    </footer>
+
+    <script src="donate.js"></script>
+</body>
+
+</html>

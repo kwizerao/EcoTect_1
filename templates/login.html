@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>EcoTect_login_page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='assets/css/login.css'>
+    <script src='main.js'></script>
+    <script src="https://kit.fontawesome.com/67ba13c4ba.js" crossorigin="anonymous"></script>
+</head><!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>EcoTect_login_page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='assets/css/login.css'>
+    <script src="https://kit.fontawesome.com/67ba13c4ba.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-box">
+            <h1>Sign In</h1>
+            <form id="loginForm">
+                <div class="input-group">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" id="username" placeholder="Username">
+                </div>
+
+                <div class="input-group">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" id="password" placeholder="Password">
+                </div>
+                <p>Forgot My Password <a href="#">Click Here!</a></p>
+                <div class="btn-field">
+                    <button type="button" onclick="validateLogin()">Sign In</button>
+                </div>
+                <p>Don't Have an Account? <a href="register.html">Register</a></p>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function validateLogin() {
+            var username = document.getElementById('username').value;
+            var password = document.getElementById('password').value;
+
+            // Basic validation
+            if (username === '' || password === '') {
+                alert('Please enter both username and password.');
+                return;
+            }
+
+            // Mock authentication logic (replace this with your actual authentication logic)
+            if (username === 'user' && password === 'password') {
+                alert('Login successful!');
+                // Redirect to the dashboard page
+                window.location.href = 'dashboard.html';
+            } else {
+                alert('Invalid username or password. Please try again.');
+            }
+        }
+    </script>
+</body>
+
+</html>
+
+<b ody>
+    <div class="container">
+        <div class="form-box">
+            <h1>Sign In</h1>
+            <form>
+                <div class="input-group">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" placeholder="Username">
+                </div>
+
+                <div class="input-group">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" placeholder="Password">
+                </div>
+                <p>Forgot My Password <a href="#">Cilck Here!</a></p>
+                <div class="btn-field">
+                    <button type="button">Sign In</button>
+                </div>
+                <p>Don't Have an Account? <a href="register.html">Register</a></p>
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>

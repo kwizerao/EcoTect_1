@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoTect - Community</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html">EcoTect Dashboard</a>
+    </header>
+
+    <div class="container">
+        <h2>Community Posts</h2>
+
+        <form id="postForm">
+            <label for="postContent">Write your community post:</label>
+            <textarea id="postContent" placeholder="Share your thoughts..." required></textarea>
+
+            <button type="button" onclick="submitPost()">Post</button>
+        </form>
+
+        <div id="communityPosts"></div>
+    </div>
+
+    <footer>
+        &copy; 2023 EcoTect | Contact us at info@ecotect.org
+    </footer>
+
+    <script src="community.js"></script>
+</body>
+
+</html>
